@@ -11,7 +11,6 @@ Warp CLI is a powerful code generation tool that accelerates Vue.js development 
 
 By analyzing your backend API documentation/annotations, Warp intelligently generates frontend code that perfectly matches your backend structure.
 
-![Warp CLI Demo](../public/img/warp-cli-demo.gif)
 
 ## Key Features
 
