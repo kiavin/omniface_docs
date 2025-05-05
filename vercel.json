@@ -1,14 +1,4 @@
 {
-  "rewrites": [{ "source": "/docs/(.*)", "destination": "/docs/index.html" }],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600, stale-while-revalidate=86400"
-        }
-      ]
-    }
-  ]
+  "builds": [{ "src": "package.json", "use": "@vercel/static-build", "config": {} }],
+  "routes": [{ "src": "/(.*)", "dest": "/index.html" }]
 }

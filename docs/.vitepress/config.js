@@ -1,6 +1,6 @@
 // docs/.vitepress/config.js
 export default {
-    base: '/docs/',
+    base: '/',
     title: 'Omniface Docs',
     description: 'Documentation for Omniface, Warp CLI, and useApi',
     
