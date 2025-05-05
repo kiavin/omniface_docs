@@ -9,7 +9,6 @@
     "vercel-build": "vitepress build doc",
     "serve": "vitepress serve docs",
     "preview": "vitepress preview docs",
-    "test:unit": "vitest",
     "format": "prettier --write docs/",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
