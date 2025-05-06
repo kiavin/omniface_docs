@@ -77,7 +77,7 @@ node warp module
 
 Displays usage information:
 
-```terminal
+```text
 DEBUG - Loaded ENV Variables: true
 
 warp module
@@ -98,7 +98,7 @@ Example Usage:
 
 ### Step 1: Initialize a Module
 
-```terminal
+```bash
 node warp module:create --name=<modulename>
 ```
 
@@ -106,7 +106,7 @@ node warp module:create --name=<modulename>
 
 You'll see:
 
-```terminal
+```text
 🚀 Generating Module: products
 ? Which components should be created?
 (Move up and down to reveal more choices)

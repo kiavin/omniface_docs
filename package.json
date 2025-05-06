@@ -12,7 +12,8 @@
     "format": "prettier --write docs/",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "docs:deploy": "gh-pages -d docs/.vitepress/dist"
   },
   "dependencies": {
     "vitepress": "^1.6.3",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
     "@vue/test-utils": "^2.4.6",
+    "gh-pages": "^6.3.0",
     "jsdom": "^26.0.0",
     "prettier": "3.5.3",
     "vite": "^6.2.4",
