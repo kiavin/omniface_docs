@@ -3,7 +3,7 @@ export default {
     base: '/omniface-docs/',
     title: 'Omniface Docs',
     description: 'Documentation for Omniface, Warp CLI, and useApi',
-    
+
     // Updated head configuration with correct paths
     head: [
       ['link', { rel: 'icon', href: '/docs/favicon.ico', type: 'image/x-icon' }],
@@ -15,11 +15,11 @@ export default {
       ['meta', { name: 'twitter:creator', content: '@yourhandle' }],
       ['meta', { name: 'theme-color', content: '#4f46e5' }]
     ],
-  
+
     // Updated theme configuration with working features
     themeConfig: {
       logo: '../public/favicon.ico', // Recommended SVG logo
-      
+
       // Navigation
       nav: [
         { text: 'Home', link: '/' },
@@ -28,7 +28,7 @@ export default {
         { text: 'useApi', link: '/use-api/' },
         { text: 'Roadmap', link: '/roadmap' }
       ],
-  
+
       // Sidebar
       sidebar: {
         '/omnigrid/': [
@@ -49,12 +49,12 @@ export default {
               { text: 'Getting Started', link: '/use-api/' },
               { text: 'Methods', link: '/use-api/methods' },
               { text: 'Error Handling', link: '/use-api/error-handling' },
-              { text: 'Advanced Patterns', link: '/use-api/advanced' }
+              { text: 'Advance Features', link: '/use-api/advanced' }
             ]
           }
         ]
       },
-  
+
       // Search
       search: {
         provider: 'local',
@@ -69,14 +69,14 @@ export default {
           }
         }
       },
-  
+
       // Social Links
       socialLinks: [
         { icon: 'github', link: 'https://github.com/Francis-Yuppie/' },
         { icon: 'twitter', link: 'https://twitter.com/yourhandle' },
         { icon: 'discord', link: 'https://discord.gg/yourinvite' }
       ],
-  
+
       // Banner (requires custom CSS)
       banner: {
         text: '🚀 Omniface v2.0 is coming soon!',
@@ -84,29 +84,29 @@ export default {
         dismissible: true,
         key: 'v2-announcement' // Required for dismissible
       },
-  
+
       // Outline sidebar
       outline: {
         level: [2, 3],
         label: 'On this page',
         outlineBadges: true
       },
-  
+
       // Doc footer navigation
       docFooter: {
         prev: '← Previous',
         next: 'Next →'
       },
-  
+
       // Footer
       footer: {
         message: 'Released under the MIT License',
         copyright: `Copyright © ${new Date().getFullYear()} Omniface`
       },
-  
+
       // Return to top
       returnToTop: true, // Changed from returnToTopLabel
-  
+
       // Team section (requires custom component)
       team: [
         {
@@ -119,7 +119,7 @@ export default {
           ]
         }
       ],
-  
+
       // Last updated
       lastUpdated: {
         text: 'Last updated',
@@ -128,14 +128,14 @@ export default {
           timeStyle: 'medium'
         }
       },
-  
+
       // Edit link
       editLink: {
         pattern: 'https://github.com/Francis-Yuppie/omniface/edit/main/docs/:path',
         text: 'Edit this page on GitHub'
       }
     },
-  
+
     // Custom theme enhancements
     markdown: {
       theme: {
