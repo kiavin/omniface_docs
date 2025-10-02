@@ -1,10 +1,8 @@
 // docs/.vitepress/config.js
 export default {
-  base: '/omniface-docs/',
+  base: './',
   title: 'Omniface Docs',
   description: 'Documentation for Omniface, Warp CLI, and useApi',
-
-  outDir: '../../dist',
 
   // Updated head configuration with correct paths
   head: [
