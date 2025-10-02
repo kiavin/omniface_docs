@@ -55,7 +55,7 @@ node warp module:create --name=scheduler
 
 1. Prompts you to select which components to generate:
 
-```terminal
+```bash
 ? Which folders should be created?
 ❯◉ components/atoms
  ◉ components/molecules
