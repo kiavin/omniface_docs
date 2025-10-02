@@ -1,12 +1,12 @@
 // docs/.vitepress/config.js
 export default {
-  base: './',
+  base: '/omniface-docs/',
   title: 'Omniface Docs',
   description: 'Documentation for Omniface, Warp CLI, and useApi',
 
   // Updated head configuration with correct paths
   head: [
-    ['link', { rel: 'icon', href: '/docs/favicon.ico', type: 'image/x-icon' }],
+    ['link', { rel: 'icon', href: './favicon.ico', type: 'image/x-icon' }],
     ['meta', { property: 'og:title', content: 'Omniface Documentation' }],
     [
       'meta',
@@ -24,11 +24,11 @@ export default {
 
   // Updated theme configuration with working features
   themeConfig: {
-    logo: '../public/favicon.ico', // Recommended SVG logo
+    logo: './favicon.ico', // Recommended SVG logo
 
     // Navigation
     nav: [
-      { text: 'Home', link: '/omniface-docs' },
+      { text: 'Home', link: '/' },
       { text: 'Omnigrid', link: '/omniface-docs/omnigrid/' },
       { text: 'Warp CLI', link: '/omniface-docs/warp-cli/' },
       { text: 'useApi', link: '/omniface-docs/use-api/' },
