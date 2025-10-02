@@ -28,11 +28,11 @@ export default {
 
     // Navigation
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Omnigrid', link: '/omnigrid/' },
-      { text: 'Warp CLI', link: '/warp-cli/' },
-      { text: 'useApi', link: '/use-api/' },
-      { text: 'Roadmap', link: '/roadmap' },
+      { text: 'Home', link: '/omniface-docs' },
+      { text: 'Omnigrid', link: '/omniface-docs/omnigrid/' },
+      { text: 'Warp CLI', link: '/omniface-docs/warp-cli/' },
+      { text: 'useApi', link: '/omniface-docs/use-api/' },
+      { text: 'Roadmap', link: '/omniface-docs/roadmap' },
     ],
 
     // Sidebar
